@@ -259,25 +259,36 @@ section.col.apply-now {
 }
 
 /*********   styling of sectiona, sectionb, and sectionc  ****/
+#container {
+  width: 80%px;
+  margin: auto;
+}
+.col-3 {
+  width: 100%;
+  padding: 0;
+/*  border: 1px solid #fff;
+  border-right: none;
+  border-top: none;  **/
+}
 .sectiona {
   float: left;
-      width: 31%;
-      height: 390px;
-      padding: 5px;
+      width: 32.33%;
+      height: 319px;
+      padding: 0;
       background-color: blue;
-}
-.sectionc {
-  float:left;
-  width: 31%;
-  height: 390px;
-  padding: 5px;
-  background-color: red;
 }
 .sectionb {
   float:left;
-  width: 31%;
-  height: 390px;
-  padding: 5px;
+ width: 32.33%;
+  height: 319px;
+  padding: 0;
+  background-color: red;
+}
+.sectionc {
+  float:left;
+  width: 32.33%;
+  height: 319px;
+  padding-right: 32px;
   background-color: green;
 }
 
@@ -296,7 +307,7 @@ section.col.apply-now {
   width: 66%;
   height: 390px;
   padding: 5px;
-  background-color: yellow;
+  background-color: yellow;  **/
 }
 .section3b {
   float:left;
