@@ -289,7 +289,8 @@ section.col.apply-now {
   width: 32.33%;
   height: 319px;
   padding-right: 32px;
-  background-color: green;
+  background-color: #00aeef ;
+;
 }
 
 /**** styling of the section jobChallenge   ******/
@@ -326,7 +327,7 @@ section.col.apply-now {
 .search-box {
   width: 47%;
   height: 250px;
-  background-color: red;
+  background-color: #093c71;
 }
 .search-box input,
 .search-box select {
