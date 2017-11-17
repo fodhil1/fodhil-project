@@ -154,7 +154,16 @@ h1 {
   float: right;
 }
 
-
+/************* new mediaqueries between intervals *******/
+@media(max-width: 768px) {
+  .container #find-solution-work .find-solution,
+  .container aside .additional-section {
+    flaot: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+/************* new mediaqueries between intervals *******/
 
 
 
