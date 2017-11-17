@@ -1,7 +1,13 @@
 /***** Body ******/
- footer {
-  color: white;
-  padding: 20px 0;
+footer {
+  text-align: center;
+}
+ .footer-container {
+   padding: 20px;
+   margin-top: 100px;
+   background-color: #28491d;
+  border-top: 20px solid #599a68;
+  background: #bab476;
 }
 body {
   font-family: Arial,sans-serif;
