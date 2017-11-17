@@ -20,7 +20,7 @@ body {
 
 /*** Container ****/
 .container {
-  width: 80%;
+  width: 100%;
   margin: auto;
   overflow: hidden;
 }
@@ -67,6 +67,7 @@ header #myheader h1 {
 header nav{
   flaot: right;
   margin-top: 10px;
+  align: center;
 }
 
 header a:hover {
@@ -163,7 +164,6 @@ h1 {
 .search2 .search {
   float: right;
 }
-
 /************* new mediaqueries between intervals *******/
 @media(max-width: 768px) {
   .container #find-solution-work .find-solution,
@@ -374,29 +374,62 @@ section.col.apply-now {
   width: 100%;
   background-color: red;
 }
+#cont{
+  width: 80%;
+  margin: auto;
+}
+.contimage {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: inline-block;
+
+}
 
 .image-2 {
   float: left;
-  position: relative;
-  z-index: 100;
-  width:638px;
+  width: 50%;
   height: 319px;
-  display: block;
+  background-color: blue;
 }
 .search-box {
-  float: right;
-  padding: 0;
+  float: left;
   height: 319px;
-  width: 32.33%;
-  position: relative;
-  display: block;
-
+  width: 45%;
+  background-color: green;
 }
+
+/** here the media queries of cont  ***/
+@media(max-width: 768px) {
+  .container .image-2,
+  .container .search-box,
+  #cont .container .sectiona,
+  #cont .container .sectionb,
+  #cont .container .sectionc,
+  #cont .container #find-solution-work .find-solution-total .find-solution,
+  #cont .container #find-solution-work aside .additional-section,
+    #cont .container #find-solution-work aside  {
+    flaot: none;
+    text-align: center;
+    width: 100%;
+  }
+}
+/* @media(max-width: 100px) {
+
+  #cont .container #find-solution-work aside .additional-section,
+    #cont .container #find-solution-work aside .drive-section,
+      #cont .container #find-solution-work aside .professional-section,
+        #cont .container #find-solution-work aside .Output-section {
+    flaot: none;
+    text-align: center;
+    width: 100%;
+  }
+}  **/
 
 
 /*** styling of the find-solution-work *****/
 .drive-section {
-  background-color: green;
+  background-color: orange;
   padding: 9px;
 }
 .professionals-section {
